@@ -3,7 +3,7 @@ import navbar from "./navbar";
 import cards from "./cards";
 import data from "./data";
 
-let va [
+let va= [
    
     "https://i.imgur.com/r7BkgqL.png",
     "https://i.imgur.com/XoRnSGT.png",
@@ -13,9 +13,6 @@ let va [
         "https://i.imgur.com/4jJSUbG.png",
         "https://i.imgur.com/4jJSUbG.png",
         "https://i.imgur.com/KggQ7wb.png"
-
-
-
 ];
 
 
@@ -34,4 +31,3 @@ export function Home() {
 		</>
 	);
 }
-e
