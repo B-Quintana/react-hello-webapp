@@ -34,11 +34,11 @@ export const storeProducts = [
 		inCart: false,
 		count: 0,
 		total: 0
-	}
+	},
 	{
 		id: 4,
 		title: "HTC 10 - White",
-		img: "https://i.imgur.com/eJznJUg.png"
+		img: "https://i.imgur.com/eJznJUg.png",
 		price: 18,
 		company: "htc",
 		info:
@@ -50,7 +50,7 @@ export const storeProducts = [
 	{
 		id: 5,
 		title: "HTC Desire 626s",
-		img: "https://i.imgur.com/hPdaRoZ.png"
+		img: "https://i.imgur.com/hPdaRoZ.png",
 		price: 24,
 		company: "htc",
 		info:
