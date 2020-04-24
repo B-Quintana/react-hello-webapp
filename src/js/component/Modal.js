@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import styled from "styled-components";
-import { ProductConsumer } from "../store/context";
-import { ButtonContainer } from "../component/Button";
+import styled from "./styled-components";
+import { ProductConsumer } from "./store/context";
+import { ButtonContainer } from "./component/Button";
 import { Link } from "react-router-dom";
 
 export const Modal = () => {
