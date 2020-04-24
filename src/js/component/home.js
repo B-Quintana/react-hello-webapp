@@ -1,7 +1,7 @@
 import React from "react";
-import { Navbar } from "./Navbar";
+import { Navbar } from "./navbar";
 import { Cards } from "./cards";
-import { Jumbotron } from "./Jumbotron";
+import { Jumbotron } from "./jumbotron";
 
 let va = [
 	"https://i.imgur.com/r7BkgqL.png",
