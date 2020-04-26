@@ -1,6 +1,6 @@
 //import react into the bundle
 import React from "react";
-import  {ReactDOM}from "react-dom";
+import { ReactDOM } from "react-dom";
 
 //include bootstrap npm library into the bundle
 import "bootstrap/dist/css/bootstrap.css";
@@ -10,6 +10,18 @@ import "../styles/index.scss";
 
 //import your own components
 //import {Layout} from "./layout";
+import { App } from "./views/App/App";
+import { ProductProvider } from "../js/store/context";
 
 //render your react application
-ReactDOM.render(<Layout />, document.querySelector("#app"));
+ReactDOM.render(
+	<ProductProvider>
+		<Router>
+			<App />
+		</Router>
+	</ProductProvider>,
+
+	document.querySelector("#app")
+);
+
+
